@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+#left-side {
+  background-color: red;
+  flex: 15;
+}
+
+#right-side {
+  background-color: red;
+  flex: 15;
+}
+
+#spine {
+  background-color: crimson;
+  flex: 2;
+}
