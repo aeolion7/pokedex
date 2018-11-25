@@ -8,6 +8,11 @@ body {
   width: 100vw;
 }
 
+.spine-divider {
+  flex: 2;
+  background-color: red;
+}
+
 #left-side {
   background-color: red;
   flex: 15;
@@ -20,5 +25,15 @@ body {
 
 #spine {
   background-color: crimson;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  display: flex;
   flex: 2;
+  flex-direction: column;
+}
+
+#spine-main {
+  flex: 24;
+  border-top: 10px double black;
+  border-bottom: 10px double black;
 }
