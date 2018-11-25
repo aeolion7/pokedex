@@ -3,37 +3,22 @@ body {
 }
 
 .container {
-  display: flex;
+  display: grid;
   height: 100vh;
   width: 100vw;
-}
-
-.spine-divider {
-  flex: 2;
-  background-color: red;
+  grid-template-columns: 47.5% 5% 47.5%;
 }
 
 #left-side {
   background-color: red;
-  flex: 15;
 }
 
 #right-side {
   background-color: red;
-  flex: 15;
 }
 
 #spine {
   background-color: crimson;
   border-left: 2px solid black;
   border-right: 2px solid black;
-  display: flex;
-  flex: 2;
-  flex-direction: column;
-}
-
-#spine-main {
-  flex: 24;
-  border-top: 8px double black;
-  border-bottom: 8px double black;
 }
