@@ -34,6 +34,6 @@ body {
 
 #spine-main {
   flex: 24;
-  border-top: 10px double black;
-  border-bottom: 10px double black;
+  border-top: 8px double black;
+  border-bottom: 8px double black;
 }
