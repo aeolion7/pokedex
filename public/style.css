@@ -5,9 +5,30 @@ body {
 .container {
   display: grid;
   grid-template-columns: 52.634% 47.366%;
-  height: 100vh;
+  height: 90vh;
   margin: auto;
-  width: 100vw;
+  padding-top: 3%;
+  width: 75vw;
+}
+
+.hinge {
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  flex: 3;
+}
+
+#image-screen {
+  background-color: black;
+  border: 18px solid grey;
+  border-bottom-left-radius: 30px;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+#left-face {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  grid-template-rows: 5% 45% auto;
 }
 
 #left-inside {
@@ -36,6 +57,10 @@ body {
   background-color: crimson;
   border-left: 2px solid black;
   border-right: 2px solid black;
-  border-top: 2px solid black;
   display: flex;
+  flex-direction: column;
+}
+
+#spine-main {
+  flex: 20;
 }
