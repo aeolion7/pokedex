@@ -4,23 +4,38 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 47.5% 5% 47.5%;
-  height: 95vh;
+  grid-template-columns: 52.634% 47.366%;
+  height: 100vh;
   margin: auto;
-  width: 95vw;
+  width: 100vw;
+}
+
+#left-inside {
+  display: grid;
+  grid-template-columns: 90% 10%;
 }
 
 #left-side {
   background-color: red;
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+
+#page {
+  background-color: red;
+  grid-row-start: 2;
 }
 
 #right-side {
-  background-color: red;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 20% 80%;
 }
 
 #spine {
   background-color: crimson;
   border-left: 2px solid black;
   border-right: 2px solid black;
+  border-top: 2px solid black;
   display: flex;
 }
