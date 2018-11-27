@@ -8,20 +8,35 @@ body {
   grid-template-columns: 52.634% 47.366%;
   height: 90vh;
   margin: auto;
-  padding-top: 3%;
+  padding-top: 2.5%;
   width: 65vw;
 }
 
 .hinge {
-  border-bottom: 5px solid black;
-  border-top: 5px solid black;
   flex: 3;
+}
+
+.hinge:nth-of-type(1) {
+  border-bottom: 5px solid black;
+
+}
+
+.hinge:nth-of-type(3) {
+  border-top: 5px solid black;
 }
 
 #image-screen {
   background-color: black;
-  border: 40px solid lightgrey;
+  border: 30px solid lightgrey;
   border-bottom-left-radius: 30px;
+  border-radius: 5px;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+#info-screen {
+  background-color: black;
+  border-radius: 5px;
   grid-column-start: 2;
   grid-row-start: 2;
 }
@@ -49,7 +64,10 @@ body {
 
 #right-page {
   background-color: red;
+  display: grid;
   grid-row-start: 2;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 8% 25% 25% auto;
 }
 
 #right-side {
