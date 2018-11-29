@@ -1,0 +1,27 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Pokedex application",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ichooseyou": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeolion7/pokedex.git"
+  },
+  "keywords": [
+    "pokemon",
+    "pokedex"
+  ],
+  "author": "Joseph Lionarons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aeolion7/pokedex/issues"
+  },
+  "homepage": "https://github.com/aeolion7/pokedex#readme"
+}
